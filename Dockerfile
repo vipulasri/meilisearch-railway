@@ -1,4 +1,6 @@
-FROM getmeili/meilisearch:latest
+# Use the official Meilisearch version (default: latest)
+ARG MEILISEARCH_VERSION=latest
+FROM getmeili/meilisearch:${MEILISEARCH_VERSION}
 
 # Copy custom entrypoint script
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh

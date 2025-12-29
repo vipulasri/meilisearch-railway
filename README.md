@@ -20,6 +20,7 @@ This is a template for deploying [Meilisearch](https://www.meilisearch.com/) on 
 | `MEILI_ENV` | Environment (development/production). | `production` |
 | `MEILI_DB_PATH` | Path to on-disk database. | `/meili_data/data.ms` |
 | `MEILI_NO_ANALYTICS` | Activate/Deactivate Telemetry. | `true` |
+| `MEILISEARCH_VERSION` | The version of Meilisearch to use (e.g., `v1.31.0`). Available versions can be found [here](https://github.com/meilisearch/meilisearch/releases). | `latest` |
 
 ## Volumes
 
