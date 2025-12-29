@@ -2,6 +2,12 @@
 
 This is a template for deploying [Meilisearch](https://www.meilisearch.com/) on Railway.
 
+## Features
+
+- **One-Click Deploy**: Cloud-ready setup for Railway with zero configuration needed.
+- **Flexible Versioning**: Supports any Meilisearch version (via `MEILISEARCH_VERSION` env variable).
+- **Persistent Storage**: Auto-configured volumes to ensure your search indexes survive restarts.
+
 ## Deployment
 
 1. Use the "Deploy on Railway" button below.
@@ -25,3 +31,8 @@ This is a template for deploying [Meilisearch](https://www.meilisearch.com/) on 
 ## Volumes
 
 Meilisearch uses persistent storage (`/meili_data`) to save indexes and data.
+
+## Acknowledgments
+
+- [Meilisearch](https://www.meilisearch.com): For building an incredibly fast and accessible search engine.
+- [Railway](https://railway.com): For providing a seamless deployment platform.
