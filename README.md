@@ -16,7 +16,7 @@ This is a template for deploying [Meilisearch](https://www.meilisearch.com/) on 
 | --- | --- | --- |
 | `MEILI_MASTER_KEY` | **Required.** Master key to access the instance. [More info](https://docs.meilisearch.com/learn/configuration/instance_options.html#master-key) | *None* |
 | `PORT` | The Railway port to expose. | `3331` |
-| `MEILI_HTTP_ADDR` | Address and port binding. | `:::3331` |
+| `MEILI_HTTP_ADDR` | Address and port binding. | `0.0.0.0:3331` |
 | `MEILI_ENV` | Environment (development/production). | `production` |
 | `MEILI_DB_PATH` | Path to on-disk database. | `/meili_data/data.ms` |
 | `MEILI_NO_ANALYTICS` | Activate/Deactivate Telemetry. | `true` |
